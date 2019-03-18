@@ -1,7 +1,6 @@
-[package]
-name = "rust-c-wasm-lib"
-version = "0.1.0"
-authors = ["David Craven <david@craven.ch>"]
-edition = "2018"
-
-[dependencies]
+[workspace]
+members = [
+  "fib",
+  "fib_c",
+  "fib_wasm",
+]

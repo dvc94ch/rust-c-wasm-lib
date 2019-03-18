@@ -1,0 +1,12 @@
+[package]
+name = "fib_wasm"
+version = "0.1.0"
+authors = ["David Craven <david@craven.ch>"]
+edition = "2018"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+fib = { path = "../fib" }
+wasm-bindgen = "*"

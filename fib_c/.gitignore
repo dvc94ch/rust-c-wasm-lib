@@ -1,0 +1,3 @@
+bindings.h
+csrc/fib-dynamic
+csrc/fib-static
